@@ -13,7 +13,7 @@ const httpOptions = {
   providedIn: 'root',
 })
 export class TaskService {
-  private apiUrl = 'http://localhost:3000/tasks';
+  private apiUrl = 'https://my-json-server.typicode.com/djanusic/angular-demo/tasks';
   constructor(private http: HttpClient) {}
 
   getTasks(): Observable<Task[]> {
