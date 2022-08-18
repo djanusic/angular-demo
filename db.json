@@ -25,5 +25,24 @@
       "id": 4
     }
   ],
-  "products": []
+  "products": [
+    {
+      "id": 1,
+      "title": "Iphone 4",
+      "description": "asdfadwqawq",
+      "price": 299
+    },
+    {
+      "id": 2,
+      "title": "TV Samsung",
+      "description": "qwerqwedqwa edqw",
+      "price": 299
+    },
+    {
+      "id": 3,
+      "title": "Apple Mouse",
+      "description": "wqd qdwd2qw",
+      "price": 189
+    }
+  ]
 }
