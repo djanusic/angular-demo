@@ -1,0 +1,13 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #54BAB9;
+    height: 50px;
+    width: 100%;
+    color: #F7ECDE;
+}
+
+p {
+    font-size: 30px;
+    margin-left: 20px;
+}

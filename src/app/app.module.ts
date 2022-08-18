@@ -12,10 +12,14 @@ import { TaskItemComponent } from './components/task-item/task-item.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AddTaskComponent } from './components/add-task/add-task.component';
 import { ShopComponent } from './components/shop/shop.component';
+import { HomeComponent } from './components/shop/home/home.component';
+import { NavbarComponent } from './components/shop/navbar/navbar.component';
+import { ProductComponent } from './components/shop/product/product.component';
 
 const appRoutes: Routes = [
   {path: '', component: TasksComponent},
-  {path: 'shop', component: ShopComponent}
+  {path: 'shop', component: ShopComponent},
+  
 ]
 
 @NgModule({
@@ -27,6 +31,9 @@ const appRoutes: Routes = [
     TaskItemComponent,
     AddTaskComponent,
     ShopComponent,
+    HomeComponent,
+    NavbarComponent,
+    ProductComponent,
   ],
   imports: [BrowserModule, FontAwesomeModule, HttpClientModule, FormsModule, RouterModule.forRoot(appRoutes,  {enableTracing: true})],
   providers: [],
