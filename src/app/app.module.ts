@@ -15,10 +15,12 @@ import { ShopComponent } from './components/shop/shop.component';
 import { HomeComponent } from './components/shop/home/home.component';
 import { NavbarComponent } from './components/shop/navbar/navbar.component';
 import { ProductComponent } from './components/shop/product/product.component';
+import { ProductItemComponent } from './components/shop/product-item/product-item.component';
 
 const appRoutes: Routes = [
   {path: '', component: TasksComponent},
   {path: 'shop', component: ShopComponent},
+  {path: 'product/:id', component: ProductItemComponent},
   
 ]
 
@@ -34,6 +36,7 @@ const appRoutes: Routes = [
     HomeComponent,
     NavbarComponent,
     ProductComponent,
+    ProductItemComponent,
   ],
   imports: [BrowserModule, FontAwesomeModule, HttpClientModule, FormsModule, RouterModule.forRoot(appRoutes,  {enableTracing: true})],
   providers: [],

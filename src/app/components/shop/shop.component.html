@@ -1,6 +1,7 @@
 <div>
    <app-navbar></app-navbar>
-   <router-outlet></router-outlet>
-   <!-- <p *ngFor="let product of products">{{product.title}}</p> -->
+   <div class="grid">
+   <app-product *ngFor="let product of products" [product]="product"></app-product>
+   </div>
     <a routerLink="/">go back</a>
 </div>
